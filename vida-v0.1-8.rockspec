@@ -1,10 +1,18 @@
-package = "Vida"
-version = "v0.1-5"
+-- This file was automatically generated for the LuaDist project.
 
+package = "vida"
+version = "v0.1-8"
+
+-- LuaDist source
 source = {
-    url = 'https://github.com/nwhitehead/vida/archive/v0.1-5.tar.gz',
-    dir = 'vida-0.1-5'
+  tag = "v0.1-8",
+  url = "git://github.com/LuaDist-testing/vida.git"
 }
+-- Original source
+-- source = {
+--     url = 'https://github.com/nwhitehead/vida/archive/v0.1-8.tar.gz',
+--     dir = 'vida-0.1-8'
+-- }
 
 description = {
     summary = "Mix C code into your LuaJIT code seamlessly.",
@@ -18,6 +26,7 @@ description = {
 }
 
 dependencies = {
+    "lua ~> 5.1"
 }
 
 build = {

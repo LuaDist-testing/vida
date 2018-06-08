@@ -37,6 +37,21 @@ local fast = vida.compile(
 print(fast.func(3, 5)) -- prints out 8
 ```
 
+## Getting it
+
+Vida is a single Lua source file `vida.lua` (available in the `output`
+directory in the repository) that you can copy to `/usr/local/share/lua/5.1`
+or wherever else you keep your Lua modules.
+
+You can also install vida using luarocks:
+```
+sudo luarocks install vida
+```
+Vida requires LuaJIT which is based on Lua 5.1. Your installation
+of LuaRocks may default to only installing modules for Lua 5.2.
+You may want to install two versions of LuaRocks, one for Lua 5.1 and
+another for Lua 5.2 (see [these instructions](http://stackoverflow.com/questions/20321560/how-do-install-libraries-for-both-lua5-2-and-5-1-using-luarocks)).
+
 ## How it works
 
 Each call to `vida.compile` builds a new shared library using clang
