@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "vida"
-version = "v0.1-10"
+version = "v0.1-11"
 
 -- LuaDist source
 source = {
-  tag = "v0.1-10",
+  tag = "v0.1-11",
   url = "git://github.com/LuaDist-testing/vida.git"
 }
 -- Original source
 -- source = {
---     url = 'https://github.com/nwhitehead/vida/archive/v0.1-10.tar.gz',
---     dir = 'vida-0.1-10'
+--     url = 'https://github.com/nwhitehead/vida/archive/v0.1-11.tar.gz',
+--     dir = 'vida-0.1-11'
 -- }
 
 description = {
